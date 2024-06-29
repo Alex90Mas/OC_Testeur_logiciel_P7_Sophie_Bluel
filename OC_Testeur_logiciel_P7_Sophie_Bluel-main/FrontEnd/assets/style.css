@@ -125,6 +125,32 @@ li:hover {
 	text-align: center;
 	margin-bottom: 1em;
 }
+/* Nouveau css pour les boutons de tri */
+.btn-list {
+	display: flex;
+	justify-content: center;
+	margin: 2em;
+}
+
+.btn-all, .btn-obj, .btn-apt, .btn-hr {
+	font-family: 'Syne';
+	font-size: 16px;
+	font-weight: bold;
+	color: #1D6154;
+	border: solid;
+	border-width: 1px;
+	border-color: #1D6154;
+	background-color: white;
+	border-radius: 60px ;
+	padding: 0.5em 1em;
+	margin: 0.5em;
+}
+
+.btn-all:hover, .btn-obj:hover, .btn-apt:hover, .btn-hr:hover {
+	color: white;
+	background-color: #1D6154;
+}
+
 .gallery {
 	width: 100%;
 	display: grid;
@@ -137,6 +163,11 @@ li:hover {
 	width: 100%;
 
 }
+
+.gallery p {
+	padding-top: 0.5em;
+}
+
 #contact {
 	width: 50%;
 margin: auto;
