@@ -65,4 +65,5 @@ document.addEventListener("DOMContentLoaded", function () {
         document.querySelector(".gallery").innerHTML = '';
         showWorks(workHr);
     });
+
 });
